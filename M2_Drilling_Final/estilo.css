@@ -1,0 +1,11 @@
+body, header, nav, section, footer{
+    margin: 0px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#about{
+    text-align: justify;
+}
