@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Sans-serif;
+    list-style: none;
+}
+
+.navbar{
+    background-color: rgb(32, 119, 126);
+    color: white;
+}
+
+.nav-link{
+    color: aquamarine! important;
+}
+
+img{
+    width: 200px; /*al seleccionar solo el width, el height se adapta*/ 
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    flex-basis: 20%;
+}
+
+.users-container{
+    background-color: rgb(81, 151, 151);
+    padding: 90px;
+    border: 50px;
+}
+.content-wrapper{
+    border-radius: 3px;
+}
+.chat-container{
+    background-color: rgb(177, 98, 166);
+    padding: 90px;
+    border: 50px;
+}
+.selected.user{
+    background-color: rgb(76, 65, 138);
+}
+.usersP{
+    background-color: rgb(156, 177, 98);
+    padding: 90px;
+    border: 50px;
+}
+.chat-left{
+    text-align: left;
+}
+.chat-right{
+    text-align: right;
+}
+.img-right{
+    position: relative; /* O absolute */
+    left: 500px; /* Ajusta el valor según sea necesario */
+}
+.chat-avatar2 img {
+    position: absolute; /* Posiciona la imagen de forma absoluta */
+    right: 0; /* Mueve la imagen al borde derecho del contenedor */
+}
